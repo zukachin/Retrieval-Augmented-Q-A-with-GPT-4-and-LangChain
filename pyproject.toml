@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cd \"/mnt/c/users/admin/onedrive - beez innovation labs private limited/desktop/langchain-\""
+version = "0.1.0"
+description = "langchain"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "cd \""}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.3.6"
+langchain = "^0.3.19"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
